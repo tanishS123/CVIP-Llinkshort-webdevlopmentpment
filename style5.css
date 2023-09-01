@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height:100vh;
+  font-family:Arial,sans-serif;
+  font-size: 15px;
+  padding:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url("Wiretap.jpg");
+}
+.container{
+     background-image:url("Yoda.jpg");
+     padding:2.2rem;
+     border-radius: .6rem;
+     border: 2px solid white;
+}
+h1{
+  margin:1rem 0;
+}
+input{
+  width:100%;
+  padding:.9rem;
+  margin:1.2 rem 0;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+button{
+  transition: all .2s linear;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: red;
+}
+#result{
+  margin-top:10px;
+}
